@@ -1,13 +1,731 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Projects | Kazi Nimat Hasan</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body><div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><div class="site-shell"><aside class="profile-card"><div class="portrait-wrap"><img class="portrait" src="assets/profile.jpg" alt="Kazi Nimat Hasan"><span class="availability"><i></i> Open to research opportunities</span></div><div class="profile-intro"><h1>Kazi Nimat Hasan</h1><p class="profile-subtitle">Biomedical Engineering · KUET, Bangladesh</p></div><div class="side-divider"></div><div class="profile-details"><div class="detail-row"><span class="detail-icon">✉</span><div><small>EMAIL</small><a href="mailto:kazinimat3@gmail.com">kazinimat3@gmail.com</a></div></div><div class="detail-row"><span class="detail-icon">◎</span><div><small>RESEARCH FOCUS</small><p>Bioinformatics &amp; biomedical AI</p></div></div></div><a class="cv-button" href="documents/academic/Nimat_Hasan_CV.pdf" target="_blank" rel="noreferrer">Download CV <span>↓</span></a>
-<a class="transcript-button" href="documents/academic/Nimat_Transcript_KUET.pdf" target="_blank" rel="noreferrer">Download transcript <span>↓</span></a><div class="social-links"><a href="https://www.linkedin.com/in/kazi-nimat-hasan-427852341/" target="_blank" rel="noreferrer">in</a><a href="https://github.com/Nimat007" target="_blank" rel="noreferrer">⌘</a><a href="mailto:kazinimat3@gmail.com">✉</a></div><p class="sidebar-note">Curiosity-led. Evidence-driven. Reproducible.</p></aside><main class="main-content"><header class="topbar"><nav class="nav-links"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="resume.html">Resume</a><a class="nav-link" href="publications.html">Publications</a><a class="nav-link active" href="projects.html">Projects</a><a class="nav-link" href="eca.html">ECA</a><a class="nav-link" href="contact.html">Contact</a></nav><button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle light and dark theme">☼</button></header><section class="hero"><p class="eyebrow">SELECTED WORK</p><h2>Projects <em>&amp; applications</em></h2><p class="hero-copy">Browse a concise project overview. Expand any card for methods, contributions, and available code or reports.</p><div class="filter-row" role="group" aria-label="Filter projects"><button class="filter-button active" data-filter="all">All</button><button class="filter-button" data-filter="bioinformatics">Bioinformatics</button><button class="filter-button" data-filter="biomaterials">Biomaterials</button><button class="filter-button" data-filter="hardware">Hardware &amp; devices</button><button class="filter-button" data-filter="modeling">Modeling &amp; signals</button></div></section>
-<section class="content-section"><div class="project-grid thumbnail-grid">
-<article class="project-card thumbnail-card" data-category="bioinformatics"><a href="bioinformatics.html#measles"><div class="project-thumb visual-rna"><span>GEO DATASETS</span><b>Bulk RNA · Single-cell RNA</b></div></a><span class="project-type">GSE229685 + GSE168775</span><h3>Host-directed target discovery in measles virus infection</h3><p>Independent bulk and single-cell transcriptomic analyses to investigate persistent host responses and candidate targets.</p><details class="expand-details"><summary>What I did &amp; research intention</summary><ul><li>Motivated by the 2026 measles outbreak in Bangladesh and the need to investigate complementary research avenues beyond vaccination.</li><li>Analyze bulk temporal response and single-cell infected/bystander cell context.</li><li>Use a target-blind, evidence-driven workflow; revised candidate analysis remains in progress.</li></ul><a class="text-link" href="bioinformatics.html#measles">Explore full thesis ↗</a><br><a class="text-link" href="https://github.com/Nimat007/measles-transcriptomic-analysis" target="_blank" rel="noreferrer">GitHub repository ↗</a></details></article>
-<article class="project-card thumbnail-card" data-category="bioinformatics"><a href="https://github.com/Nimat007/cancer-drug-response-benchmark" target="_blank" rel="noreferrer"><div class="project-thumb visual-drug"><span>TRANSCRIPTOMICS · ML</span><b>Drug-response benchmark</b></div></a><span class="project-type">INDEPENDENT REPOSITORY · WIP</span><h3>Transcriptome-based drug-response benchmark</h3><p>Tests whether baseline gene-expression profiles generalize to cancer lineages unseen during training.</p><details class="expand-details"><summary>Approach &amp; preliminary findings</summary><ul><li>Compared Ridge and Random Forest against a training-fold mean baseline with lineage-grouped cross-validation.</li><li>Preliminary results showed weak rank correlation and no average MAE improvement over baseline; findings are reported as exploratory.</li><li>Raw datasets are not bundled with the repository.</li></ul><a class="text-link" href="https://github.com/Nimat007/cancer-drug-response-benchmark" target="_blank" rel="noreferrer">Open GitHub ↗</a></details></article>
-<article class="project-card thumbnail-card" id="hydrogel" data-category="biomaterials"><img class="project-thumb project-thumb-image" src="assets/hydrogel-thumbnail.jpg" alt="Physically cross-linked composite hydrogel prepared for wound-dressing research"><span class="project-type">UNDERGRADUATE RESEARCH · MANUSCRIPT IN PREPARATION</span><h3>Hydrogel-based wound-dressing research</h3><p>Development and optimization of physically cross-linked chitosan/PVA/gelatin composite hydrogels for antibiotic-loaded wound dressings.</p><details class="expand-details"><summary>My role, methods &amp; evaluation</summary><ul><li>Primarily prepared the hydrogels and worked on formulation development using planned polymer blend ratios.</li><li>Applied physical freeze–thaw crosslinking and freeze-drying as part of the preparation workflow.</li><li>Participated in selected characterization tests; the project considered swelling, water retention, gel fraction, porosity, degradation, tensile properties, and additional evaluations where data were available.</li><li>Manuscript is in preparation. No performance outcomes are claimed here without verified results.</li></ul></details></article>
-<article class="project-card thumbnail-card" data-category="hardware"><a href="https://github.com/Nimat007/AI-driven-glucose-monitoring-system" target="_blank" rel="noreferrer"><img class="project-thumb project-thumb-image" src="assets/glucose-thumbnail.jpg" alt="AI-driven glucose monitoring system thumbnail"></a><span class="project-type">TELEMEDICINE · MACHINE LEARNING</span><h3>AI-driven glucose monitoring system</h3><p>Optical sensing with phototransistors, Python data acquisition, structured measurements, and a Random Forest glucose estimator.</p><details class="expand-details"><summary>Project contribution</summary><p>Team project; contribution included data collection and materials procurement.</p><a class="text-link" href="https://github.com/Nimat007/AI-driven-glucose-monitoring-system" target="_blank" rel="noreferrer">GitHub repository ↗</a></details></article>
-<article class="project-card thumbnail-card" data-category="hardware"><a href="https://github.com/Nimat007/Assistive-System-for-Paralyzed-Patients-Using-Motion-Wireless-Communication" target="_blank" rel="noreferrer"><img class="project-thumb project-thumb-image" src="assets/assistive-thumbnail.jpg" alt="Assistive system for paralyzed patients thumbnail"></a><span class="project-type">BIOMEDICAL DEVICE</span><h3>Assistive system for paralyzed patients</h3><p>Gesture and finger-flexion input, a custom resistive flex sensor, Arduino, wireless communication, and emergency alerts.</p><details class="expand-details"><summary>Methods &amp; code</summary><p>Prototype combined motion sensing, wireless messaging, and a simple user-facing display/alert pathway.</p><a class="text-link" href="https://github.com/Nimat007/Assistive-System-for-Paralyzed-Patients-Using-Motion-Wireless-Communication" target="_blank" rel="noreferrer">GitHub repository ↗</a></details></article>
-<article class="project-card thumbnail-card" data-category="hardware"><a href="https://github.com/Nimat007/IoT-Based-Baby-Monitoring-System-Smart-Cradle" target="_blank" rel="noreferrer"><img class="project-thumb project-thumb-image" src="assets/baby-monitor-thumbnail.jpg" alt="Baby monitoring system and smart cradle thumbnail"></a><span class="project-type">IOT · MONITORING</span><h3>Baby monitoring system and smart cradle</h3><p>Arduino UNO, NodeMCU/ESP8266, and sound and environmental sensors for monitoring and automated response.</p><details class="expand-details"><summary>System &amp; code</summary><p>Integrated sensor inputs, microcontroller logic, and a servo-based cradle response.</p><a class="text-link" href="https://github.com/Nimat007/IoT-Based-Baby-Monitoring-System-Smart-Cradle" target="_blank" rel="noreferrer">GitHub repository ↗</a></details></article>
-<article class="project-card thumbnail-card" data-category="modeling"><a href="https://github.com/Nimat007/Design-and-Analysis-of-A-Pacemaker-Electrode-using-COMSOL-Multiphysics-" target="_blank" rel="noreferrer"><img class="project-thumb project-thumb-image" src="assets/pacemaker-thumbnail.png" alt="Pacemaker electrode COMSOL project thumbnail"></a><span class="project-type">COMPUTATIONAL MODELING</span><h3>Pacemaker electrode design and analysis</h3><p>Compared electrode materials and diameters using COMSOL Multiphysics.</p><details class="expand-details"><summary>Modeling focus</summary><p>Built a 3D electrode model and compared electric potential/current-density behavior across design options. Interpretation should follow the supplied report.</p><a class="text-link" href="https://github.com/Nimat007/Design-and-Analysis-of-A-Pacemaker-Electrode-using-COMSOL-Multiphysics-" target="_blank" rel="noreferrer">GitHub repository ↗</a><br><a class="text-link" href="documents/reports/Pacemaker_Electrode_Report.pdf" target="_blank" rel="noreferrer">Open project report ↗</a></details></article>
-<article class="project-card thumbnail-card" data-category="modeling"><img class="project-thumb project-thumb-image" src="assets/anesthesia-thumbnail.png" alt="Closed-loop anesthesia with BIS monitoring thumbnail"><span class="project-type">SIMULATION PROJECT</span><h3>Closed-loop anesthesia with BIS monitoring</h3><p>Feedback-control concept using EEG-derived BIS, target depth, and control updates under simulated conditions.</p><details class="expand-details"><summary>Project summary</summary><p>Explored signal responses and feedback-control behavior under simulated conditions. This is a modeling project, not a clinically validated anesthesia controller.</p></details></article>
-<article class="project-card thumbnail-card" data-category="hardware"><img class="project-thumb project-thumb-image" src="assets/patient-monitor-thumbnail.jpg" alt="IoT-based patient health monitoring system prototype"><span class="project-type">IOT · HEALTH MONITORING</span><h3>IoT-based patient health monitoring</h3><p>Portable vital-sign monitoring prototype with Arduino Nano, Bluetooth, and mobile visualization.</p><details class="expand-details"><summary>System overview</summary><p>Combined vital-sign sensors, Arduino Nano, HC-05 Bluetooth, and mobile visualization via Ardutooth.</p></details></article>
-</div><p class="small-note">For projects without a repository link, use the expanded card for a concise methods summary. Illustrative thumbnails remain clearly separate from experimental results; use original project photographs or figures wherever available.</p></section><footer class="site-footer"><span>© <span class="year"></span> Kazi Nimat Hasan</span><span>Selected projects</span></footer></main></div><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b10">
+  <meta name="description" content="Selected biomedical engineering, bioinformatics, biomaterials, machine learning, and computational modeling projects by Kazi Nimat Hasan.">
+  <title>Projects | Kazi Nimat Hasan</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Project page enhancements */
+    .project-grid.thumbnail-grid {
+      align-items: stretch;
+    }
+
+    .thumbnail-card {
+      min-width: 0;
+    }
+
+    .project-thumb-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .project-thumb {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .project-thumb-image {
+      display: block;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .thesis-emblem {
+      min-height: 205px;
+      padding: 18px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 14px;
+      background:
+        radial-gradient(circle at 50% 45%, rgba(131, 111, 255, .18), transparent 58%),
+        linear-gradient(135deg, #101c2c, #211b37 65%, #11131f);
+      border: 1px solid rgba(177, 157, 255, .23);
+    }
+
+    .thesis-emblem img {
+      display: block;
+      width: 100%;
+      height: 170px;
+      object-fit: contain;
+      transition: transform .25s ease;
+    }
+
+    .thesis-emblem:hover img {
+      transform: scale(1.04);
+    }
+
+    .thesis-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin: 13px 0 7px;
+      color: #aa9bff;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .thesis-kicker::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      flex: 0 0 7px;
+      border-radius: 50%;
+      background: #a99aff;
+    }
+
+    .thesis-summary {
+      margin-top: 12px;
+      line-height: 1.75;
+    }
+
+    .thesis-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin: 12px 0;
+    }
+
+    .thesis-meta span {
+      display: inline-block;
+      padding: 5px 9px;
+      border: 1px solid rgba(164, 151, 220, .25);
+      border-radius: 7px;
+      background: rgba(144, 126, 220, .08);
+      font-size: .72rem;
+      line-height: 1.4;
+    }
+
+    .thesis-status {
+      margin: 12px 0;
+      padding: 11px 13px;
+      border-left: 3px solid #a99aff;
+      border-radius: 0 8px 8px 0;
+      background: rgba(151, 132, 255, .07);
+      font-size: .82rem;
+      line-height: 1.7;
+    }
+
+    .thesis-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 15px;
+    }
+
+    .thesis-primary-button,
+    .thesis-secondary-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 44px;
+      padding: 11px 16px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: .85rem;
+      font-weight: 700;
+      transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+    }
+
+    .thesis-primary-button {
+      flex: 1 1 205px;
+      color: #11101a;
+      background: linear-gradient(110deg, #a89aff, #c39aff);
+      box-shadow: 0 5px 20px rgba(153, 125, 255, .20);
+    }
+
+    .thesis-secondary-button {
+      flex: 0 1 auto;
+      color: #b5a8ff;
+      border: 1px solid rgba(177, 157, 255, .4);
+      background: rgba(144, 126, 220, .06);
+    }
+
+    .thesis-primary-button:hover,
+    .thesis-secondary-button:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.07);
+    }
+
+    .thesis-primary-button:hover {
+      box-shadow: 0 8px 25px rgba(153, 125, 255, .3);
+    }
+
+    .thesis-primary-button:focus-visible,
+    .thesis-secondary-button:focus-visible {
+      outline: 3px solid #d5ccff;
+      outline-offset: 4px;
+    }
+
+    .expand-details {
+      margin-top: 13px;
+    }
+
+    .expand-details summary {
+      cursor: pointer;
+    }
+
+    .expand-details li {
+      margin-bottom: 7px;
+      line-height: 1.65;
+    }
+
+    .project-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 13px;
+    }
+
+    .project-links .text-link {
+      display: inline-block;
+    }
+
+    .project-status {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: .76rem;
+      opacity: .8;
+    }
+
+    @media (max-width: 600px) {
+      .thesis-emblem {
+        min-height: 170px;
+      }
+
+      .thesis-emblem img {
+        height: 140px;
+      }
+
+      .thesis-actions {
+        flex-direction: column;
+      }
+
+      .thesis-primary-button,
+      .thesis-secondary-button {
+        width: 100%;
+        flex: 1 1 auto;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .thesis-emblem img,
+      .thesis-primary-button,
+      .thesis-secondary-button {
+        transition: none;
+      }
+
+      .thesis-emblem:hover img,
+      .thesis-primary-button:hover,
+      .thesis-secondary-button:hover {
+        transform: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <div class="site-shell">
+
+    <!-- Sidebar -->
+    <aside class="profile-card">
+      <div class="portrait-wrap">
+        <img class="portrait" src="assets/profile.jpg" alt="Kazi Nimat Hasan">
+        <span class="availability"><i></i> Open to research opportunities</span>
+      </div>
+
+      <div class="profile-intro">
+        <h1>Kazi Nimat Hasan</h1>
+        <p class="profile-subtitle">Biomedical Engineering · KUET, Bangladesh</p>
+      </div>
+
+      <div class="side-divider"></div>
+
+      <div class="profile-details">
+        <div class="detail-row">
+          <span class="detail-icon">✉</span>
+          <div>
+            <small>EMAIL</small>
+            <a href="mailto:kazinimat3@gmail.com">kazinimat3@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="detail-row">
+          <span class="detail-icon">◎</span>
+          <div>
+            <small>RESEARCH FOCUS</small>
+            <p>Bioinformatics &amp; biomedical AI</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="cv-button"
+         href="documents/academic/Nimat_Hasan_CV.pdf"
+         target="_blank" rel="noreferrer">
+        Download CV <span>↓</span>
+      </a>
+
+      <a class="transcript-button"
+         href="documents/academic/Nimat_Transcript_KUET.pdf"
+         target="_blank" rel="noreferrer">
+        Download transcript <span>↓</span>
+      </a>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/kazi-nimat-hasan-427852341/"
+           target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+        <a href="https://github.com/Nimat007"
+           target="_blank" rel="noreferrer" aria-label="GitHub">⌘</a>
+        <a href="mailto:kazinimat3@gmail.com" aria-label="Email">✉</a>
+      </div>
+
+      <p class="sidebar-note">Curiosity-led. Evidence-driven. Reproducible.</p>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main-content">
+
+      <header class="topbar">
+        <nav class="nav-links" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="resume.html">Resume</a>
+          <a class="nav-link" href="publications.html">Publications</a>
+          <a class="nav-link active" href="projects.html">Projects</a>
+          <a class="nav-link" href="eca.html">ECA</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+
+        <button id="themeToggle" class="theme-toggle" type="button"
+                aria-label="Toggle light and dark theme">☼</button>
+      </header>
+
+      <!-- Page introduction -->
+      <section class="hero">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects <em>&amp; applications</em></h2>
+        <p class="hero-copy">
+          Research, computational analysis, biomaterials, and biomedical
+          engineering projects. Explore the summaries below or open individual
+          project details for methods, contributions, and available code.
+        </p>
+
+        <div class="filter-row" role="group" aria-label="Filter projects">
+          <button class="filter-button active" data-filter="all" type="button">All</button>
+          <button class="filter-button" data-filter="bioinformatics" type="button">Bioinformatics</button>
+          <button class="filter-button" data-filter="biomaterials" type="button">Biomaterials</button>
+          <button class="filter-button" data-filter="hardware" type="button">Hardware &amp; devices</button>
+          <button class="filter-button" data-filter="modeling" type="button">Modeling &amp; signals</button>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="project-grid thumbnail-grid">
+
+          <!-- FEATURED THESIS -->
+          <article class="project-card thumbnail-card thesis-featured"
+                   data-category="bioinformatics">
+
+            <a class="project-thumb-link"
+               href="bioinformatics.html#measles"
+               aria-label="Open full measles transcriptomics thesis">
+
+              <div class="project-thumb thesis-emblem">
+                <img
+                  src="assets/00_thesis_thumbnail.jpg"
+                  alt="Integrated transcriptomic analysis thesis emblem"
+                  onerror="this.style.display='none'; this.parentElement.classList.add('logo-unavailable');"
+                >
+                <div class="logo-fallback" hidden>
+                  <span>INTEGRATED TRANSCRIPTOMICS</span>
+                  <b>Measles virus · Host response</b>
+                </div>
+              </div>
+            </a>
+
+            <span class="thesis-kicker">Undergraduate thesis · Featured research</span>
+
+            <span class="project-type">GSE229685 + GSE168775</span>
+
+            <h3>Host-directed target discovery in measles virus infection</h3>
+
+            <p class="thesis-summary">
+              Integrated bulk and single-cell RNA-seq analyses to investigate
+              persistent host-response signatures, distinguish infected-cell
+              from bystander-cell responses, and prioritize candidates for
+              further investigation.
+            </p>
+
+            <div class="thesis-meta">
+              <span>Longitudinal bulk RNA-seq</span>
+              <span>Single-cell RNA-seq</span>
+              <span>Cross-dataset analysis</span>
+            </div>
+
+            <p class="thesis-status">
+              <strong>Research status:</strong> Revised candidate-discovery
+              analysis is in progress. Downstream network analysis and molecular
+              docking remain planned or in progress; no validated therapeutic
+              target is claimed.
+            </p>
+
+            <!-- Main call to action: always visible -->
+            <div class="thesis-actions">
+              <a class="thesis-primary-button" href="bioinformatics.html#measles">
+                Explore the Full Thesis <span aria-hidden="true">↗</span>
+              </a>
+
+              <a class="thesis-secondary-button"
+                 href="https://github.com/Nimat007/measles-transcriptomic-analysis"
+                 target="_blank" rel="noreferrer">
+                GitHub Repository ↗
+              </a>
+            </div>
+
+            <!-- Optional technical details -->
+            <details class="expand-details">
+              <summary>Methods, contributions &amp; limitations</summary>
+              <ul>
+                <li>
+                  Investigating longitudinal host-response patterns in bulk
+                  RNA-seq dataset GSE229685.
+                </li>
+                <li>
+                  Examining cell states and infected/bystander-cell context in
+                  single-cell RNA-seq dataset GSE168775.
+                </li>
+                <li>
+                  Designing cross-dataset comparisons to assess evidence
+                  convergence and direction consistency.
+                </li>
+                <li>
+                  Considering experimental-design limitations, including
+                  pooled donors in the single-cell dataset.
+                </li>
+                <li>
+                  Network analysis and molecular docking are exploratory
+                  downstream steps, not evidence of treatment efficacy.
+                </li>
+              </ul>
+              <a class="text-link" href="bioinformatics.html#measles">
+                View the detailed workflow ↗
+              </a>
+            </details>
+          </article>
+
+          <!-- DRUG RESPONSE BENCHMARK -->
+          <article class="project-card thumbnail-card" data-category="bioinformatics">
+            <a class="project-thumb-link"
+               href="https://github.com/Nimat007/cancer-drug-response-benchmark"
+               target="_blank" rel="noreferrer">
+              <div class="project-thumb visual-drug">
+                <span>TRANSCRIPTOMICS · ML</span>
+                <b>Drug-response benchmark</b>
+              </div>
+            </a>
+
+            <span class="project-type">INDEPENDENT REPOSITORY · WIP</span>
+            <h3>Transcriptome-based drug-response benchmark</h3>
+
+            <p>
+              Tests whether baseline gene-expression profiles generalize to
+              cancer lineages unseen during training.
+            </p>
+
+            <details class="expand-details">
+              <summary>Approach &amp; preliminary findings</summary>
+              <ul>
+                <li>
+                  Compared Ridge and Random Forest against a training-fold mean
+                  baseline using lineage-grouped cross-validation.
+                </li>
+                <li>
+                  Preliminary results showed weak rank correlation and no
+                  average MAE improvement over baseline. Findings remain exploratory.
+                </li>
+                <li>Raw datasets are not bundled with the repository.</li>
+              </ul>
+              <a class="text-link"
+                 href="https://github.com/Nimat007/cancer-drug-response-benchmark"
+                 target="_blank" rel="noreferrer">Open GitHub ↗</a>
+            </details>
+          </article>
+
+          <!-- HYDROGEL -->
+          <article class="project-card thumbnail-card"
+                   id="hydrogel" data-category="biomaterials">
+
+            <img class="project-thumb project-thumb-image"
+                 src="assets/hydrogel-thumbnail.jpg"
+                 alt="Physically cross-linked composite hydrogel prepared for wound-dressing research"
+                 loading="lazy">
+
+            <span class="project-type">UNDERGRADUATE RESEARCH · MANUSCRIPT IN PREPARATION</span>
+            <h3>Hydrogel-based wound-dressing research</h3>
+
+            <p>
+              Development and optimization of physically cross-linked
+              chitosan/PVA/gelatin composite hydrogels for antibiotic-loaded
+              wound dressings.
+            </p>
+
+            <details class="expand-details">
+              <summary>My role, methods &amp; evaluation</summary>
+              <ul>
+                <li>
+                  Primarily prepared the hydrogels and worked on formulation
+                  development using planned polymer blend ratios.
+                </li>
+                <li>
+                  Applied physical freeze–thaw crosslinking and freeze-drying
+                  as part of the preparation workflow.
+                </li>
+                <li>
+                  Participated in selected characterization tests. The project
+                  considered swelling, water retention, gel fraction, porosity,
+                  degradation, tensile properties, and additional evaluations
+                  where data were available.
+                </li>
+                <li>
+                  Manuscript is in preparation. No performance outcomes are
+                  claimed here without verified results.
+                </li>
+              </ul>
+            </details>
+          </article>
+
+          <!-- GLUCOSE MONITORING -->
+          <article class="project-card thumbnail-card" data-category="hardware">
+            <a class="project-thumb-link"
+               href="https://github.com/Nimat007/AI-driven-glucose-monitoring-system"
+               target="_blank" rel="noreferrer">
+              <img class="project-thumb project-thumb-image"
+                   src="assets/glucose-thumbnail.jpg"
+                   alt="AI-driven glucose monitoring system"
+                   loading="lazy">
+            </a>
+
+            <span class="project-type">TELEMEDICINE · MACHINE LEARNING</span>
+            <h3>AI-driven glucose monitoring system</h3>
+
+            <p>
+              Optical sensing with phototransistors, Python data acquisition,
+              structured measurements, and a Random Forest glucose estimator.
+            </p>
+
+            <details class="expand-details">
+              <summary>Project contribution</summary>
+              <p>
+                Team project; my contribution included data collection and
+                materials procurement.
+              </p>
+              <a class="text-link"
+                 href="https://github.com/Nimat007/AI-driven-glucose-monitoring-system"
+                 target="_blank" rel="noreferrer">GitHub repository ↗</a>
+            </details>
+          </article>
+
+          <!-- ASSISTIVE SYSTEM -->
+          <article class="project-card thumbnail-card" data-category="hardware">
+            <a class="project-thumb-link"
+               href="https://github.com/Nimat007/Assistive-System-for-Paralyzed-Patients-Using-Motion-Wireless-Communication"
+               target="_blank" rel="noreferrer">
+              <img class="project-thumb project-thumb-image"
+                   src="assets/assistive-thumbnail.jpg"
+                   alt="Assistive system for paralyzed patients"
+                   loading="lazy">
+            </a>
+
+            <span class="project-type">BIOMEDICAL DEVICE</span>
+            <h3>Assistive system for paralyzed patients</h3>
+
+            <p>
+              Gesture and finger-flexion input, a custom resistive flex sensor,
+              Arduino, wireless communication, and emergency alerts.
+            </p>
+
+            <details class="expand-details">
+              <summary>Methods &amp; code</summary>
+              <p>
+                Prototype combined motion sensing, wireless messaging, and a
+                simple user-facing display and alert pathway.
+              </p>
+              <a class="text-link"
+                 href="https://github.com/Nimat007/Assistive-System-for-Paralyzed-Patients-Using-Motion-Wireless-Communication"
+                 target="_blank" rel="noreferrer">GitHub repository ↗</a>
+            </details>
+          </article>
+
+          <!-- BABY MONITOR -->
+          <article class="project-card thumbnail-card" data-category="hardware">
+            <a class="project-thumb-link"
+               href="https://github.com/Nimat007/IoT-Based-Baby-Monitoring-System-Smart-Cradle"
+               target="_blank" rel="noreferrer">
+              <img class="project-thumb project-thumb-image"
+                   src="assets/baby-monitor-thumbnail.jpg"
+                   alt="Baby monitoring system and smart cradle"
+                   loading="lazy">
+            </a>
+
+            <span class="project-type">IOT · MONITORING</span>
+            <h3>Baby monitoring system and smart cradle</h3>
+
+            <p>
+              Arduino UNO, NodeMCU/ESP8266, and sound and environmental sensors
+              for monitoring and automated response.
+            </p>
+
+            <details class="expand-details">
+              <summary>System &amp; code</summary>
+              <p>
+                Integrated sensor inputs, microcontroller logic, and a
+                servo-based cradle response.
+              </p>
+              <a class="text-link"
+                 href="https://github.com/Nimat007/IoT-Based-Baby-Monitoring-System-Smart-Cradle"
+                 target="_blank" rel="noreferrer">GitHub repository ↗</a>
+            </details>
+          </article>
+
+          <!-- PACEMAKER -->
+          <article class="project-card thumbnail-card" data-category="modeling">
+            <a class="project-thumb-link"
+               href="https://github.com/Nimat007/Design-and-Analysis-of-A-Pacemaker-Electrode-using-COMSOL-Multiphysics-"
+               target="_blank" rel="noreferrer">
+              <img class="project-thumb project-thumb-image"
+                   src="assets/pacemaker-thumbnail.png"
+                   alt="Pacemaker electrode COMSOL project"
+                   loading="lazy">
+            </a>
+
+            <span class="project-type">COMPUTATIONAL MODELING</span>
+            <h3>Pacemaker electrode design and analysis</h3>
+
+            <p>
+              Compared electrode materials and diameters using COMSOL Multiphysics.
+            </p>
+
+            <details class="expand-details">
+              <summary>Modeling focus</summary>
+              <p>
+                Built a 3D electrode model and compared electric potential and
+                current-density behavior across design options. Interpretation
+                should follow the project report.
+              </p>
+              <div class="project-links">
+                <a class="text-link"
+                   href="https://github.com/Nimat007/Design-and-Analysis-of-A-Pacemaker-Electrode-using-COMSOL-Multiphysics-"
+                   target="_blank" rel="noreferrer">GitHub repository ↗</a>
+                <a class="text-link"
+                   href="documents/reports/Pacemaker_Electrode_Report.pdf"
+                   target="_blank" rel="noreferrer">Project report ↗</a>
+              </div>
+            </details>
+          </article>
+
+          <!-- ANESTHESIA -->
+          <article class="project-card thumbnail-card" data-category="modeling">
+            <img class="project-thumb project-thumb-image"
+                 src="assets/anesthesia-thumbnail.png"
+                 alt="Closed-loop anesthesia with BIS monitoring"
+                 loading="lazy">
+
+            <span class="project-type">SIMULATION PROJECT</span>
+            <h3>Closed-loop anesthesia with BIS monitoring</h3>
+
+            <p>
+              Feedback-control concept using EEG-derived BIS, target depth,
+              and control updates under simulated conditions.
+            </p>
+
+            <details class="expand-details">
+              <summary>Project summary</summary>
+              <p>
+                Explored signal responses and feedback-control behavior under
+                simulated conditions. This is a modeling project, not a
+                clinically validated anesthesia controller.
+              </p>
+            </details>
+          </article>
+
+          <!-- PATIENT MONITOR -->
+          <article class="project-card thumbnail-card" data-category="hardware">
+            <img class="project-thumb project-thumb-image"
+                 src="assets/patient-monitor-thumbnail.jpg"
+                 alt="IoT-based patient health monitoring system"
+                 loading="lazy">
+
+            <span class="project-type">IOT · HEALTH MONITORING</span>
+            <h3>IoT-based patient health monitoring</h3>
+
+            <p>
+              Portable vital-sign monitoring prototype with Arduino Nano,
+              Bluetooth, and mobile visualization.
+            </p>
+
+            <details class="expand-details">
+              <summary>System overview</summary>
+              <p>
+                Combined vital-sign sensors, Arduino Nano, HC-05 Bluetooth,
+                and mobile visualization via Ardutooth.
+              </p>
+            </details>
+          </article>
+
+        </div>
+
+        <p class="small-note">
+          Project descriptions distinguish preliminary findings from verified
+          outcomes. Where a repository or report is available, use the linked
+          material for further technical details.
+        </p>
+      </section>
+
+      <footer class="site-footer">
+        <span>© <span class="year"></span> Kazi Nimat Hasan</span>
+        <span>Selected projects</span>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+
+  <script>
+    // Provide a clear fallback if the thesis emblem file is not uploaded.
+    document.querySelectorAll(".thesis-emblem img").forEach(function (img) {
+      img.addEventListener("error", function () {
+        img.style.display = "none";
+        var fallback = img.parentElement.querySelector(".logo-fallback");
+        if (fallback) {
+          fallback.hidden = false;
+          fallback.style.display = "flex";
+          fallback.style.flexDirection = "column";
+          fallback.style.alignItems = "center";
+          fallback.style.gap = "12px";
+          fallback.style.textAlign = "center";
+          fallback.style.color = "#e5ddff";
+          fallback.style.fontFamily = "DM Sans, sans-serif";
+        }
+      });
+    });
+  </script>
+</body>
+</html>
